@@ -1,0 +1,293 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -2.123
+TNS   : -17.472
+
+Type  : Slow 1200mV 85C Model Setup 'counter[0]'
+Slack : -1.293
+TNS   : -3.669
+
+Type  : Slow 1200mV 85C Model Setup 'RST'
+Slack : -0.346
+TNS   : -0.346
+
+Type  : Slow 1200mV 85C Model Setup 'UART_RX:U1|Q.STOP'
+Slack : -0.311
+TNS   : -0.545
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : -1.594
+TNS   : -16.124
+
+Type  : Slow 1200mV 85C Model Hold 'counter[0]'
+Slack : -0.841
+TNS   : -7.115
+
+Type  : Slow 1200mV 85C Model Hold 'UART_RX:U1|Q.STOP'
+Slack : -0.139
+TNS   : -0.588
+
+Type  : Slow 1200mV 85C Model Hold 'RST'
+Slack : -0.015
+TNS   : -0.015
+
+Type  : Slow 1200mV 85C Model Recovery 'CLK'
+Slack : -0.762
+TNS   : -10.320
+
+Type  : Slow 1200mV 85C Model Recovery 'counter[0]'
+Slack : -0.544
+TNS   : -2.681
+
+Type  : Slow 1200mV 85C Model Removal 'counter[0]'
+Slack : -0.527
+TNS   : -5.019
+
+Type  : Slow 1200mV 85C Model Removal 'CLK'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -19.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RST'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter[0]'
+Slack : -1.000
+TNS   : -22.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA3'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA4'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA1'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA2'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA5'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.STOP'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA0'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA6'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA7'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -1.815
+TNS   : -13.574
+
+Type  : Slow 1200mV 0C Model Setup 'counter[0]'
+Slack : -1.047
+TNS   : -2.744
+
+Type  : Slow 1200mV 0C Model Setup 'RST'
+Slack : -0.264
+TNS   : -0.264
+
+Type  : Slow 1200mV 0C Model Setup 'UART_RX:U1|Q.STOP'
+Slack : -0.206
+TNS   : -0.254
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : -1.464
+TNS   : -15.293
+
+Type  : Slow 1200mV 0C Model Hold 'counter[0]'
+Slack : -0.766
+TNS   : -6.440
+
+Type  : Slow 1200mV 0C Model Hold 'UART_RX:U1|Q.STOP'
+Slack : -0.060
+TNS   : -0.113
+
+Type  : Slow 1200mV 0C Model Hold 'RST'
+Slack : 0.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLK'
+Slack : -0.552
+TNS   : -7.320
+
+Type  : Slow 1200mV 0C Model Recovery 'counter[0]'
+Slack : -0.439
+TNS   : -2.273
+
+Type  : Slow 1200mV 0C Model Removal 'counter[0]'
+Slack : -0.497
+TNS   : -4.785
+
+Type  : Slow 1200mV 0C Model Removal 'CLK'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -19.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RST'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter[0]'
+Slack : -1.000
+TNS   : -22.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA4'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA0'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA1'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA3'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA2'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA5'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.STOP'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA6'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA7'
+Slack : 0.489
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -0.737
+TNS   : -3.385
+
+Type  : Fast 1200mV 0C Model Setup 'counter[0]'
+Slack : -0.328
+TNS   : -0.587
+
+Type  : Fast 1200mV 0C Model Setup 'RST'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'UART_RX:U1|Q.STOP'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : -0.993
+TNS   : -10.413
+
+Type  : Fast 1200mV 0C Model Hold 'counter[0]'
+Slack : -0.373
+TNS   : -2.812
+
+Type  : Fast 1200mV 0C Model Hold 'UART_RX:U1|Q.STOP'
+Slack : -0.182
+TNS   : -1.068
+
+Type  : Fast 1200mV 0C Model Hold 'RST'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLK'
+Slack : -0.520
+TNS   : -7.084
+
+Type  : Fast 1200mV 0C Model Recovery 'counter[0]'
+Slack : -0.089
+TNS   : -0.178
+
+Type  : Fast 1200mV 0C Model Removal 'counter[0]'
+Slack : -0.038
+TNS   : -0.342
+
+Type  : Fast 1200mV 0C Model Removal 'CLK'
+Slack : 0.070
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RST'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter[0]'
+Slack : -1.000
+TNS   : -22.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.STOP'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA6'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA5'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA0'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA1'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA2'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA3'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA4'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'UART_RX:U1|Q.DATA7'
+Slack : 0.495
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,82 @@
+|uart_echo
+RX => uart_rx:U1.RX
+CLK => counter[0].CLK
+CLK => counter[1].CLK
+CLK => counter[2].CLK
+CLK => counter[3].CLK
+CLK => counter[4].CLK
+CLK => counter[5].CLK
+CLK => counter[6].CLK
+CLK => counter[7].CLK
+CLK => counter[8].CLK
+CLK => counter[9].CLK
+CLK => counter[10].CLK
+CLK => counter[11].CLK
+CLK => counter[12].CLK
+CLK => counter[13].CLK
+CLK => counter[14].CLK
+CLK => counter[15].CLK
+RST => uart_tx:U0.RST
+RST => uart_rx:U1.RST
+RST => counter[0].ACLR
+RST => counter[1].ACLR
+RST => counter[2].ACLR
+RST => counter[3].ACLR
+RST => counter[4].ACLR
+RST => counter[5].ACLR
+RST => counter[6].ACLR
+RST => counter[7].ACLR
+RST => counter[8].ACLR
+RST => counter[9].ACLR
+RST => counter[10].ACLR
+RST => counter[11].ACLR
+RST => counter[12].ACLR
+RST => counter[13].ACLR
+RST => counter[14].ACLR
+RST => counter[15].ACLR
+TX <= uart_tx:U0.TX
+CLK96OUT <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|uart_echo|UART_TX:U0
+SS => D.START.DATAB
+SS => Selector1.IN2
+DA[0] => Selector0.IN10
+DA[1] => Selector0.IN9
+DA[2] => Selector0.IN8
+DA[3] => Selector0.IN7
+DA[4] => Selector0.IN6
+DA[5] => Selector0.IN5
+DA[6] => Selector0.IN4
+DA[7] => Selector0.IN3
+CLK => Q~1.DATAIN
+RST => Q~3.DATAIN
+RST => Selector2.IN0
+DS <= DS$latch.DB_MAX_OUTPUT_PORT_TYPE
+TX <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|uart_echo|UART_RX:U1
+RX => Selector0.IN3
+RX => DA[6]$latch.DATAIN
+RX => DA[5]$latch.DATAIN
+RX => DA[4]$latch.DATAIN
+RX => DA[3]$latch.DATAIN
+RX => DA[2]$latch.DATAIN
+RX => DA[1]$latch.DATAIN
+RX => DA[0]$latch.DATAIN
+RX => DA[7]$latch.DATAIN
+RX => D.START.DATAB
+CLK => Q~1.DATAIN
+RST => Q~3.DATAIN
+DR <= DR.DB_MAX_OUTPUT_PORT_TYPE
+DA[0] <= DA[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+DA[1] <= DA[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+DA[2] <= DA[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+DA[3] <= DA[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+DA[4] <= DA[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+DA[5] <= DA[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+DA[6] <= DA[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+DA[7] <= DA[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
